@@ -1,4 +1,6 @@
 -- premake5.lua
+include "dependencies/conandeps.premake5.lua"
+
 workspace "ConanTutorial"
 configurations {"Debug", "Release"}
 architecture "x64"
@@ -22,3 +24,5 @@ filter "configurations:Release"
 defines {"NDEBUG"}
 optimize "On"
 filter {}
+
+conan_setup()

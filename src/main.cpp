@@ -1,5 +1,6 @@
 #include <iostream>
+#include <spdlog/spdlog.h>
 
 int main() {
-    std::cout << "Hello world";
+    spdlog::warn("Hello world");
 }

@@ -4,5 +4,9 @@
 **.vcxproj
 **.vcxproj.user
 
+# Conan
+
+/dependencies
+
 # Build output
 /build
